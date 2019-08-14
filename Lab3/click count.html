@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Click</title>
+
+  
+</head>
+
+<body>
+ 
+
+    <button type="button" onClick="Click()">Click me</button>
+
+    
+    <script type="text/javascript">
+        var clicks = 0;
+    
+        function Click() {
+            clicks += 1;
+            document.getElementById("clicks").innerHTML = clicks;
+
+
+    
+        };
+        </script>
+    
+    <p>You clicked the button for : <a id="clicks">0</a> times</p>
+
+</body></html>
